@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
     this.bsConfig = {
       containerClass: 'theme-default'
-    }
+    };
     this.createRegisterForm();
   }
 
