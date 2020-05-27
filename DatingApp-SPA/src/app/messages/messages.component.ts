@@ -34,7 +34,6 @@ export class MessagesComponent implements OnInit {
     }, error => {
       this.alertify.error(error);
     });
-    console.log(this.authService.decodedToken);
   }
 
   pageChanged(event: any): void {
